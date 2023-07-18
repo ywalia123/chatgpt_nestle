@@ -1,8 +1,8 @@
- from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
- from langchain import OpenAI
- import gradio as gr
- import sys
- import os
+from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
+from langchain import OpenAI
+import gradio as gr
+import sys
+import os
 
 os.environ["OPENAI_API_KEY"] = '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'
 
